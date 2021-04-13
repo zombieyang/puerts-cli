@@ -1,0 +1,22 @@
+{
+  "name": "@puerts/unity-v8",
+  "version": "1.0.13",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "puerts import ."
+  },
+  "puerts": {
+    "engine": "unity",
+    "nativeFile": [
+      {
+        "src": "Assets/**/*",
+        "dest": "Assets/"
+      }
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
